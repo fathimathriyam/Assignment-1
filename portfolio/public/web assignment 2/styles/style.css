@@ -1,0 +1,142 @@
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	width: 1100px;
+	margin: 0 auto;
+	padding: 0;
+	border: 3px solid rgb(32, 200, 63);
+	box-shadow: 0 10px 20px 10px rgb(115, 236, 81);
+	background-color: rgb(219, 235, 195);
+	border-bottom: 1em;
+	border-top: 1em;
+}
+h1, h2, h3,p
+{
+	margin:0;
+	padding:0;
+}
+a {
+	font-weight:bold;
+}
+/* the styles for header */
+header{
+	background-image:linear-gradient(to bottom, rgba(189, 234, 153, 0.792) 0%, rgb(72, 196, 68) 100%);
+    height: 440px;
+	border-bottom: 5px solid rgb(227, 234, 24);
+}
+header img
+{
+	float: center;
+	margin-top: 3em;
+	margin-bottom: 2em;
+	margin-left: 8em;
+	margin-right:3em ;
+}
+
+header h3{
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	font-size:150%;
+	text-indent: 45px;
+	margin-top: .1em;
+	margin-bottom: 5em;
+	font-style: italic;
+	text-shadow: 5px 5px 5px rgb(27, 81, 243) ;
+	color: yellow ;
+}
+/*the styles for the section  */
+
+section{
+	width: 690px;
+	float: left;
+	padding: 25px ;
+	margin-left: .1em;
+	margin-right: .1em;
+}
+section h1
+{
+	font-size:120%;
+	margin-bottom: .4em;
+	text-align: center;
+	font-style: italic;
+	font-family:'Gill Sans', 'Gill Sans MT',;
+	color:rgb(6, 94, 25);
+	text-shadow: 2px .1px 2px  rgb(173, 119, 227);
+}
+section h5{
+	font-size:110%;
+	margin-bottom: .5em;
+	margin-top: 1em;
+	text-align: center;
+	color: rgb(13, 104, 87);
+	font-family: 'Times New Roman', Times, serif;
+}
+
+
+blockquote {
+text-align: center ;
+background-image:linear-gradient(to bottom, rgba(66, 235, 221, 0.792) 0%, rgb(82, 225, 94) 100%); ;
+width: 680px;
+margin-left: .1em;
+
+}
+blockquote p{
+	font-family: cursive;
+	color: rgb(30, 56, 2);
+}
+section h3 {
+	color: rgb(19, 172, 180);
+	font-size:110%;
+	margin-top: .5em;
+	margin-bottom: .5em;
+	text-align: center;
+	
+}
+section p {
+	font-size:100%;
+	margin-bottom: .7em;
+	text-align: center;}
+	
+section a:link, section a:visited{
+	color:rgb(178, 16, 203);
+}
+section a:hover, section a:focus{
+	color:rgb(31, 76, 221);
+}
+/* the styles for the sidebar */
+aside {
+	float: left;
+	width: 300px;
+	padding: 25px 0 30px;
+}
+aside h2{
+	font-size:130%;
+	color: rgb(17, 85, 231);
+	margin-bottom: 8px;
+}
+aside ul
+{
+	line-height:1.5;
+	margin:0;
+}
+aside img{
+ padding: 30px 25px;
+ 
+}
+aside a:link, aside a:visited{
+	color:rgb(221, 119, 23);
+}
+aside a:hover, aside a:focus{
+	color:rgb(0, 128, 109);
+}
+/* the styles for the footer */
+footer{
+	clear:both;
+	padding: 15px 30px;
+
+border-top:5px solid rgb(24, 234, 192) ;
+background-image: linear-gradient(to bottom, rgba(8, 143, 8, 0.792) 0%, rgb(167, 213, 29) 100%); ;
+}
+footer p{
+	text-align:center;
+	font-size:85%;
+	color: rgb(7, 31, 2);
+}
